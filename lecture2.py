@@ -35,3 +35,4 @@ centroids = centroids.rename(columns={'centroid': 'geometry'})
 #converts the pandas to GeaDataFrame
 centroids = gpd.GeoDataFrame(centroids, geometry='geometry', crs=data.crs)
 
+# 
