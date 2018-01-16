@@ -52,4 +52,3 @@ pks['nearest_id'] = pks.apply(nearest, geom_union=unary, df1=pks, df2=address, g
 
 
 
-
